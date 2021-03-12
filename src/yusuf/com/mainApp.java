@@ -7,9 +7,9 @@ import java.util.Scanner;
 	 public static void menu() {//prints the main menu to the screen
 		System.out.println("...............................................");
 		System.out.println("...............................................");
-	    System.out.println("Please select a program from below to continue.");
-	    System.out.println("...............................................");
-	    System.out.println("...............................................\n");
+	        System.out.println("Please select a program from below to continue.");
+	        System.out.println("...............................................");
+	        System.out.println("...............................................\n");
 		System.out.println("1- Array operations.");
 		System.out.println("2- Number guessing game.");
 		System.out.println("3- Find repeating numbers in a array.");
@@ -29,7 +29,7 @@ import java.util.Scanner;
 	try {	
 		menu();
 		
-	    Scanner sc = new Scanner(System.in);
+	        Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt(); //select which program to run
 		System.out.println("You have selected option "+number+":\n\n");
 		
