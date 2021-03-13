@@ -14,7 +14,7 @@ import java.util.Scanner;
 		System.out.println("2- Number guessing game.");
 		System.out.println("3- Find repeating numbers in a array.");
 		System.out.println("4- Find the sum of the digits of a number.");
-		System.out.println("5- Draw a equilateral triangle from numbers.");
+		System.out.println("5- Draw an equilateral triangle from numbers.");
 		System.out.println("6- Move symbol inside star array.");
 		System.out.println("7- Exit.\n");
 	 } //end of menu block
