@@ -6,14 +6,14 @@ public class drawEquilateralTriangle {
 	
 public static void drawTriangle() {
 	
-	boolean end = false;
+	 boolean end = false;
 	
 	while(!end) {
 		
-	int i=1,number;
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter a number: ");
-    number = sc.nextInt();
+         int i=1,number;
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter a number: ");
+         number = sc.nextInt();
 
    for(int k=1; k<=number; k++) {
         for(int j=1;j<=number-i;j++)
@@ -39,9 +39,9 @@ public static boolean repeat() {
 	  playAgain = sc.next().charAt(0);
 	  
 	  if(playAgain=='n') {//user wants to quit
-		  System.out.println("\nThe program has been terminated successfully.");
-		  System.out.println("\nNow returning to the main menu...");
-		  end = true;
+	      System.out.println("\nThe program has been terminated successfully.");
+	      System.out.println("\nNow returning to the main menu...");
+	      end = true;
 	  }//end of if loop
 	  return end;
    }//end of repeat method
