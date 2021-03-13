@@ -33,7 +33,7 @@ public class intArrayOp {
 		 int theBiggest = myIntArray[0];
 		 
 		 for(int i=0; i<myIntArray.length; i++) 
-			 if(myIntArray[i] >= theBiggest) theBiggest = myIntArray[i];
+		       if(myIntArray[i] >= theBiggest) theBiggest = myIntArray[i];
 			 
 		 System.out.println("THE BIGGEST NUMBER AMONG THE NUMBERS YOU HAVE ENTERED IS: "+theBiggest);
 		 	 
@@ -44,7 +44,7 @@ public class intArrayOp {
 		 int theSmallest = myIntArray[0];
 		 
 		 for(int i=0; i<myIntArray.length; i++) 
-			 if(myIntArray[i] <= theSmallest) theSmallest = myIntArray[i];
+		       if(myIntArray[i] <= theSmallest) theSmallest = myIntArray[i];
 			 
 		 System.out.println("THE SMALLEST NUMBER AMONG THE NUMBERS YOU HAVE ENTERED IS: "+theSmallest);
 		 	 
@@ -94,16 +94,16 @@ public class intArrayOp {
 		 
 	     boolean end = false;
 		 while(!end) {
-				switch(menu()) {
-				case 1: findBiggest(myIntArray); break;
-				case 2: findSmallest(myIntArray); break;
-				case 3: averageNumber(myIntArray); break;
-				case 4: SmallToBig(myIntArray); break;
-				case 5: myIntArray = getArray(); break;
-				case 6: System.out.println("THE PROGRAM HAS BEEN TERMINATED SUCCESSFULLY."); end=true; break;
-				default: System.out.println("Please enter a valid number."); break;	
-				}//end of switch case block
-			}//end of while loop
+			switch(menu()) {
+			case 1: findBiggest(myIntArray); break;
+			case 2: findSmallest(myIntArray); break;
+			case 3: averageNumber(myIntArray); break;
+			case 4: SmallToBig(myIntArray); break;
+			case 5: myIntArray = getArray(); break;
+			case 6: System.out.println("THE PROGRAM HAS BEEN TERMINATED SUCCESSFULLY."); end=true; break;
+			default: System.out.println("Please enter a valid number."); break;	
+			}//end of switch case block
+		}//end of while loop
 	 }//end of switch method
 	 
 }//end of intArrayOp class
