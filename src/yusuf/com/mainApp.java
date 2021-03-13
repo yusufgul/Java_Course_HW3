@@ -35,45 +35,45 @@ import java.util.Scanner;
 		
 		switch(number) {
 		case 1:{
-			intArrayOp.switchBlock(intArrayOp.getArray()); //allows user to input an array of integer numbers and do various operations on that array
-			break;
+		intArrayOp.switchBlock(intArrayOp.getArray()); //allows user to input an array of integer numbers and do various operations on that array
+		break;
 		}
-        case 2:{
+                case 2:{
         	numberGuessing.numberGuessingGame(); // a basic game where user tries to guess a randomly generated number by computer
-			break;
+		break;
 		}
-        case 3:{
+                case 3:{
         	repeatingNumbers.selection(); // this program detects repeating numbers in a integer array and prints them ons screen
-			break;
-        }
-        case 4:{
+		break;
+                }
+                case 4:{
         	sumNumbers.selection(); //this number allows user to input a integer number, then calculates the sum of digits of that number
-			break;
-        }
-        case 5:{
+		break;
+                }
+                case 5:{
         	drawEquilateralTriangle.drawTriangle(); //this program makes user enter a number and draws equilateral triangle according to that number
-			break;
-        }
-        case 6:{
+		break;
+                }
+                case 6:{
         	moveSymbol.moveCursor(); // this program allows user to control the position of symbol in the middle of star matrix
-			break;
-        }
-        case 7:{
+	        break;
+                }
+                case 7:{
         	System.out.println("Goodbye."); //program ends
         	end = true;
-			break;
-        }
+	        break;
+                }
 		default:{
-		    System.out.println("Please enter a valid number."); break;
+		System.out.println("Please enter a valid number."); break;
 		}
-     }//end of switch case block
+                }//end of switch case block
 		
 	} catch(Exception e) {
-		System.out.println("An error has been encountered. Please try again."); //if user enters wrong type of data, start program again.
+	        System.out.println("An error has been encountered. Please try again."); //if user enters wrong type of data, start program again.
 	}//end of catch block
 		
    }//end of while loop
-}//end of main method
+		
+ }//end of main method
 
-	
 }//end of mainApp class
